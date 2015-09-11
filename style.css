@@ -1,0 +1,148 @@
+* {
+	margin: 0px;
+ 	padding: 0px;
+}
+#container {
+	width: 960px;
+}
+#header {
+	display: block;
+	background-color: #fff;
+	padding-bottom: 30px;	
+}
+#header_right {
+	display: inline-block;
+	font-family: sans-serif;
+	font-weight: bold;
+	vertical-align: top;
+	padding-top: 40px;
+	margin-left: 300px;
+}
+
+/**********************************
+NAVIGATION
+**********************************/
+#navbar {
+	display: block;
+	border-top-style: inset;
+	border-top: 1px inset #000;
+	background: #f2f2f2;
+	padding-left: 50px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+}
+#navbar li {
+	text-transform: uppercase;
+	display: inline-block;
+	border-style: none ridge none none;
+	border-width: 1.5px; 
+	border-color: grey;
+	padding: 5px 20px;
+}
+#navbar li:first-child {
+	border-left: 1.5px solid grey;
+}
+#navbar li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #606060;
+}
+
+/**********************************
+MAIN CONTENT
+**********************************/
+#main_content {
+	background-color: black;
+	padding: 15px 20px;
+	color: #ffd700;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+}
+#main_caption {
+	font-size: 10px;
+	padding-bottom: 5px;
+	display: block;
+}
+#main_caption img {
+	width: 45px;
+	height: 15px;
+	margin: 5px 0;
+	display: inline-block;
+}
+#main_caption {
+	display: block;
+}
+.sub_text {
+	display: inline-block;
+	color: #666600;
+	vertical-align: top;
+	padding: 10px;
+}
+#main_link {
+	display: inline-block;
+}
+#main_pic {
+	border: white solid 5px;
+	display: inline-block;
+	vertical-align: top;
+}
+#main_post {
+	width: 500px;
+	height: 267px;
+	margin-left: 15px;
+	display: inline-block;
+	color: white;
+	background-color: grey;
+}
+#main_post img {
+	border: 1px #fff;
+	border-radius: 100px;
+}
+#main_text {
+	padding: 10px 20px;
+}
+#main_text p {
+	margin: 10px 0;
+}
+#main_text h4 {
+	font-size: 14px;
+	font-weight: 600;
+}
+.posts {
+	width: 215px;
+	display: inline-block;
+	background-color: #fffff9;
+	color: #000;
+	vertical-align: top;
+	margin: 0 5px;
+	padding-bottom: 15px;
+}
+.posts p {
+	padding: 10px;
+}
+.posts img {
+	width: 100%;
+}
+.title {
+	background-color: #ffd700;
+	color: black;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	padding: 8px 0 8px 15px;
+	border-bottom-style: solid;
+	border-bottom: 1px solid #000;
+}
+.read_more {
+	max-height: 20px;
+	max-width: 95px;
+	width: auto;
+	height: auto;
+	margin-left: 100px;
+}
+
+
+
+
+
